@@ -409,3 +409,8 @@ label {
 #icon-processo .fa-file-word {
     color: rgb(91, 91, 255);
 }
+
+
+#collapse-content {
+    border: 1px solid red;
+}
