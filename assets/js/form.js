@@ -98,9 +98,9 @@ $(document).ready(function () {
                                         <div class="collapse-content text-sm">
                                             <div id="itens-processados">
                                                 <ul class="list bg-base-100 rounded-box shadow-md">
-                                                    <li class="p-4 pb-2 text-xs opacity-60 tracking-wide item-process">Lista dos arquivos processados:</li>
+                                                    <li class="p-4 pb-2 text-xs opacity-60 tracking-wide">Lista dos arquivos processados:</li>
                                                     ${response.arquivos.map(arquivo => `
-                                                        <li class="list-row">
+                                                        <li class="list-row item-process">
                                                             <div id="icon-processo">
                                                                 <i class="fa-solid ${arquivo.tipo === 'word' ? 'fa-file-word' : 'fa-file-pdf'}"></i>
                                                             </div>
