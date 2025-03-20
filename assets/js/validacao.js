@@ -13,11 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Adiciona um event listener para o evento 'input' em cada input
         input.addEventListener('input', function () {
-            this.value = this.value.replace(/\s+/g, ' ').trim(); // Remove espaços extras
+            this.value = this.value.replace(/^\s+/, ''); // Remove apenas espaços no início
             if (input.hasAttribute('required')) {
                 validarCampo(input);
             }
         });
+
 
         // Adiciona um event listener para o evento 'blur' (quando o campo perde o foco)
         input.addEventListener('blur', function () {
