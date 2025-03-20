@@ -420,6 +420,10 @@ label {
 }
 
 #descricao-collapse {
-    font-size: .09em;
+    font-size: 1.2em;
     color: #8b8b8b;
+}
+
+.item-process {
+    border: 1px solid red;
 }
