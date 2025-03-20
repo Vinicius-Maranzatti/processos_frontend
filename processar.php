@@ -305,8 +305,8 @@
                     'editCidadeCliente' => $cidade_cliente,
                     'editEstadoCliente' => $uf_cliente,
                     'editEnderecoCompleto' => $enderecoCompleto,
-                    'editGenero' => $genero,
-                    'editEstadoCivil' => $estado_civil,
+                    'masculino' => $genero,
+                    'feminino' => $genero,
                 ],
             ];
         
