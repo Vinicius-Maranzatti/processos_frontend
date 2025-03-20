@@ -114,7 +114,10 @@ $(document).ready(function () {
                                                         </li>
                                                     `).join('')}
                                                 </ul>
-                                                <button class="btn btn-primary mt-4" id="exportarTudo">Exportar Tudo</button>
+                                                <button class="btn btn-primary mt-4" id="exportarTudo">
+                                                    <span class="me-2">Exportar Tudo</span>
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
