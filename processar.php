@@ -105,6 +105,8 @@
                 $estado_civil = "divorciada";
             } elseif ($estado_civil == "viuvo") {
                 $estado_civil = "viúva";
+            } elseif ($estado_civil == "SeparadoDeFato") {
+                $estado_civil = "separada de fato";
             }
         }
     
