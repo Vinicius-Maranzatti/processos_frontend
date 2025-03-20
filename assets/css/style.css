@@ -424,6 +424,10 @@ label {
     color: #8b8b8b;
 }
 
+.item-process {
+    transition: background .1s ease;
+}
+
 .item-process:hover {
     background-color: #eff1f3;
 }
@@ -432,4 +436,9 @@ label {
     font-weight: bold;
     color: rgb(0, 121, 0);
     margin-bottom: 15px;
+}
+
+#title-list {
+    font-size: 0.9em;
+    font-weight: medium;
 }
