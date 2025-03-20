@@ -92,7 +92,7 @@ $(document).ready(function () {
                                     <div id="collapse-content" class="collapse collapse-arrow bg-base-100 border border-base-300">
                                         <input type="radio" name="my-accordion-2" />
                                         <div class="collapse-title">
-                                            ${response.nome}
+                                            <h2>${response.nome}</h2>
                                             <p id="descricao-collapse">Total de arquivos: ${response.arquivos.length}</p>
                                         </div>
                                         <div class="collapse-content text-sm">

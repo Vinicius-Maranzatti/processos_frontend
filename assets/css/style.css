@@ -412,5 +412,14 @@ label {
 
 
 #collapse-content {
-    border: 1px solid red;
+    background-color: #F0F8FF;
+}
+
+.collapse-title h2 {
+    font-weight: bold;
+}
+
+#descricao-collapse {
+    font-size: .09em;
+    color: #8b8b8b;
 }
