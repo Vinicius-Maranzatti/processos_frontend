@@ -97,7 +97,7 @@ body {
 
 .input-password:focus {
     outline: none;
-    outline: 3px solid #0080ff;
+    outline: 2px solid #0080ff;
     box-shadow: none;
 }
 
@@ -130,7 +130,7 @@ body {
 
 .input-custom:focus {
     outline: none;
-    outline: 3px solid #0080ff;
+    outline: 2px solid #0080ff;
     box-shadow: none;
 }
 
@@ -199,13 +199,13 @@ body {
 
 /* Destacar o select quando estiver focado (Tab) */
 .select-trigger:focus {
-    outline: 3px solid #0080ff;
+    outline: 2px solid #0080ff;
     box-shadow: none;
 }
 
 /* Destacar o select quando o menu estiver aberto */
 .custom-select.active .select-trigger {
-    outline: 3px solid #0080ff;
+    outline: 2px solid #0080ff;
     box-shadow: none;
 }
 

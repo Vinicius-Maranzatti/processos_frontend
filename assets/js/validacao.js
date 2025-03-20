@@ -62,20 +62,20 @@ document.addEventListener('DOMContentLoaded', function () {
         if (campo.type === 'date') {
             // Apenas aplica a borda para campos do tipo date
             if (campo.value.trim() === "") {
-                campo.style.outline = '3px solid #FF6C6C'; // Borda vermelha
+                campo.style.outline = '2px solid #FF6C6C'; // Borda vermelha
             } else {
-                campo.style.outline = '3px solid #00C663'; // Borda verde
+                campo.style.outline = '2px solid #00C663'; // Borda verde
             }
         } else {
             // Validação padrão para outros inputs
             if (campo.value.trim() === "") {
-                campo.style.outline = '3px solid #FF6C6C'; // Borda vermelha se o campo estiver vazio
+                campo.style.outline = '2px solid #FF6C6C'; // Borda vermelha se o campo estiver vazio
                 removerCheck(campo);
             } else if (campo.checkValidity()) {
-                campo.style.outline = '3px solid #00C663'; // Borda verde se o campo for válido
+                campo.style.outline = '2px solid #00C663'; // Borda verde se o campo for válido
                 adicionarCheck(campo);
             } else {
-                campo.style.outline = '3px solid #FF6C6C'; // Borda vermelha se o campo for inválido
+                campo.style.outline = '2px solid #FF6C6C'; // Borda vermelha se o campo for inválido
                 removerCheck(campo);
             }
         }
