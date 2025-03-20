@@ -425,10 +425,11 @@ label {
 }
 
 .item-process:hover {
-    background-color: #e5e8ec;
+    background-color: #eff1f3;
 }
 
 #conclusao {
     font-weight: bold;
-    color: rgb(0, 212, 0);
+    color: rgb(0, 121, 0);
+    margin-bottom: 15px;
 }
