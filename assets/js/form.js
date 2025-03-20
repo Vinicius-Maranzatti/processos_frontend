@@ -109,7 +109,7 @@ $(document).ready(function () {
                                                                 <div class="text-xs font-semibold opacity-60">Tamanho: ${(arquivo.conteudo.length / 1024).toFixed(2)} KB</div>
                                                             </div>
                                                             <button class="btn btn-square btn-ghost" onclick="downloadFile('${arquivo.conteudo}', '${arquivo.nome}', '${arquivo.tipo}')">
-                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                <i class="fa-solid fa-cloud-arrow-down"></i>
                                                             </button>
                                                         </li>
                                                     `).join('')}
