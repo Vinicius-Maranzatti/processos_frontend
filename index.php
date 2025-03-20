@@ -197,7 +197,7 @@
                                     <li data-value="Divorciado">Divorciado</li>
                                     <li data-value="Viúvo">Viúvo</li>
                                     <li data-value="União Estável">União Estável</li>
-                                    <li data-value="SeparadoDeFato">Separado de Fato</li>
+                                    <li data-value="Separado de Fato">Separado de Fato</li>
                                  </ul>
                                  <input type="hidden" name="estado_civil" required>
                               </div>
