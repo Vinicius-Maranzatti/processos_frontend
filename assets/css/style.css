@@ -424,6 +424,11 @@ label {
     color: #8b8b8b;
 }
 
-.item-process {
-    border: 1px solid red;
+.item-process:hover {
+    background-color: #e5e8ec;
+}
+
+#conclusao {
+    font-weight: bold;
+    color: rgb(0, 212, 0);
 }
