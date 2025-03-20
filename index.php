@@ -326,14 +326,14 @@
                         </div>
                         
                         <div class="col-3">
-                           <label class="mt-2">Gênero  <span class="text-required">*</span></label>
+                           <label class="mt-2">Sexo  <span class="text-required">*</span></label>
                            <div class="mt-3">
                               <!-- Masculino -->
-                              <label for="sexo_m">Masculino</label>
+                              <label for="sexo_m">Masc.</label>
                               <input type="radio" id="sexo_m" name="genero" value="masculino" class="radio me-2" checked />
 
                                <!-- Feminino -->
-                              <label for="sexo_f">Feminino</label>
+                              <label for="sexo_f">Fem.</label>
                               <input type="radio" id="sexo_F" name="genero" value="feminino" class="radio"/>
                            </div>
                         </div>
