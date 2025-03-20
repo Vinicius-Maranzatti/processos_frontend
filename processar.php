@@ -103,9 +103,9 @@
                 $estado_civil = "casada";
             } elseif ($estado_civil == "divorciado") {
                 $estado_civil = "divorciada";
-            } elseif ($estado_civil == "viuvo") {
+            } elseif ($estado_civil == "viúvo") {
                 $estado_civil = "viúva";
-            } elseif ($estado_civil == "Separado de Fato") {
+            } elseif ($estado_civil == "separado de fato") {
                 $estado_civil = "separada de fato";
             }
         }
@@ -305,8 +305,6 @@
                     'editCidadeCliente' => $cidade_cliente,
                     'editEstadoCliente' => $uf_cliente,
                     'editEnderecoCompleto' => $enderecoCompleto,
-                    'masculino' => $genero,
-                    'feminino' => $genero,
                 ],
             ];
         
