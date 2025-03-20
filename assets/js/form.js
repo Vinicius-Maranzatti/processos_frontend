@@ -115,7 +115,7 @@ $(document).ready(function () {
                                                     `).join('')}
                                                 </ul>
                                                 <button class="btn btn-primary mt-4" id="exportarTudo">
-                                                    <span class="me-2">Exportar Tudo</span>
+                                                    <span class="me-1">Exportar Tudo</span>
                                                     <i class="fa-solid fa-download"></i>
                                                 </button>
                                             </div>
