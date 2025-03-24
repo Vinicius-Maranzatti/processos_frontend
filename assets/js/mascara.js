@@ -34,7 +34,7 @@ $(document).ready(function() {
    
     let inputDataEmissao = $('#dataEmissao');
     if (inputDataEmissao.length) {
-      let minDate = "2000-01-01";
+      let minDate = "1940-01-01";
       let maxDateEmissao = "2035-12-31";
       inputDataEmissao.attr({
          "min": minDate,
